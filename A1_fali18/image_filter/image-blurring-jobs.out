@@ -1,0 +1,42 @@
+Setting stack size to unlimited...
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 1030872
+max locked memory       (kbytes, -l) unlimited
+max memory size         (kbytes, -m) 63488000
+open files                      (-n) 1024
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) unlimited
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 4096
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+
+Running Job...!
+===============================================================================
+Running compiled binary...
+Serial version...
+Elapsed time: 24.21
+R: 92.454358, G: 96.972797, B: 100.981025
+Parallel version with 32 threads
+OMP: Info #212: KMP_AFFINITY: decoding x2APIC ids.
+OMP: Info #210: KMP_AFFINITY: Affinity capable, using global cpuid leaf 11 info
+OMP: Info #154: KMP_AFFINITY: Initial OS proc set respected: 10-13
+OMP: Info #156: KMP_AFFINITY: 4 available OS procs
+OMP: Info #157: KMP_AFFINITY: Uniform topology
+OMP: Info #179: KMP_AFFINITY: 1 packages x 4 cores/pkg x 1 threads/core (4 total cores)
+OMP: Info #214: KMP_AFFINITY: OS proc to physical thread map:
+OMP: Info #171: KMP_AFFINITY: OS proc 10 maps to package 1 core 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 11 maps to package 1 core 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 12 maps to package 1 core 2 
+OMP: Info #171: KMP_AFFINITY: OS proc 13 maps to package 1 core 3 
+OMP: Info #250: KMP_AFFINITY: pid 7159 tid 7159 thread 0 bound to OS proc set 10
+OMP: Info #250: KMP_AFFINITY: pid 7159 tid 7160 thread 1 bound to OS proc set 11
+OMP: Info #250: KMP_AFFINITY: pid 7159 tid 7161 thread 2 bound to OS proc set 12
+OMP: Info #250: KMP_AFFINITY: pid 7159 tid 7162 thread 3 bound to OS proc set 13
+Elapsed time: 3.96
+R: 92.454358, G: 96.972797, B: 100.981025

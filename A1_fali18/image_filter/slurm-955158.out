@@ -1,0 +1,105 @@
+Setting stack size to unlimited...
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 1030873
+max locked memory       (kbytes, -l) unlimited
+max memory size         (kbytes, -m) 253952000
+open files                      (-n) 1024
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) unlimited
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 4096
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+
+Running Job...!
+===============================================================================
+Running compiled binary...
+Parallel version with 16 threads Compact
+OMP: Info #212: KMP_AFFINITY: decoding x2APIC ids.
+OMP: Info #210: KMP_AFFINITY: Affinity capable, using global cpuid leaf 11 info
+OMP: Info #154: KMP_AFFINITY: Initial OS proc set respected: 0-15
+OMP: Info #156: KMP_AFFINITY: 16 available OS procs
+OMP: Info #158: KMP_AFFINITY: Nonuniform topology
+OMP: Info #179: KMP_AFFINITY: 2 packages x 10 cores/pkg x 1 threads/core (16 total cores)
+OMP: Info #214: KMP_AFFINITY: OS proc to physical thread map:
+OMP: Info #171: KMP_AFFINITY: OS proc 0 maps to package 0 core 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 1 maps to package 0 core 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 2 maps to package 0 core 2 
+OMP: Info #171: KMP_AFFINITY: OS proc 3 maps to package 0 core 3 
+OMP: Info #171: KMP_AFFINITY: OS proc 4 maps to package 0 core 4 
+OMP: Info #171: KMP_AFFINITY: OS proc 5 maps to package 0 core 8 
+OMP: Info #171: KMP_AFFINITY: OS proc 6 maps to package 0 core 9 
+OMP: Info #171: KMP_AFFINITY: OS proc 7 maps to package 0 core 10 
+OMP: Info #171: KMP_AFFINITY: OS proc 8 maps to package 0 core 11 
+OMP: Info #171: KMP_AFFINITY: OS proc 9 maps to package 0 core 12 
+OMP: Info #171: KMP_AFFINITY: OS proc 10 maps to package 1 core 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 11 maps to package 1 core 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 12 maps to package 1 core 2 
+OMP: Info #171: KMP_AFFINITY: OS proc 13 maps to package 1 core 3 
+OMP: Info #171: KMP_AFFINITY: OS proc 14 maps to package 1 core 4 
+OMP: Info #171: KMP_AFFINITY: OS proc 15 maps to package 1 core 8 
+OMP: Info #250: KMP_AFFINITY: pid 30093 tid 30093 thread 0 bound to OS proc set 0
+OMP: Info #250: KMP_AFFINITY: pid 30093 tid 30095 thread 2 bound to OS proc set 2
+OMP: Info #250: KMP_AFFINITY: pid 30093 tid 30094 thread 1 bound to OS proc set 1
+OMP: Info #250: KMP_AFFINITY: pid 30093 tid 30096 thread 3 bound to OS proc set 3
+OMP: Info #250: KMP_AFFINITY: pid 30093 tid 30097 thread 4 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30093 tid 30098 thread 5 bound to OS proc set 5
+OMP: Info #250: KMP_AFFINITY: pid 30093 tid 30099 thread 6 bound to OS proc set 6
+OMP: Info #250: KMP_AFFINITY: pid 30093 tid 30100 thread 7 bound to OS proc set 7
+OMP: Info #250: KMP_AFFINITY: pid 30093 tid 30101 thread 8 bound to OS proc set 8
+OMP: Info #250: KMP_AFFINITY: pid 30093 tid 30102 thread 9 bound to OS proc set 9
+OMP: Info #250: KMP_AFFINITY: pid 30093 tid 30103 thread 10 bound to OS proc set 10
+OMP: Info #250: KMP_AFFINITY: pid 30093 tid 30104 thread 11 bound to OS proc set 11
+OMP: Info #250: KMP_AFFINITY: pid 30093 tid 30105 thread 12 bound to OS proc set 12
+OMP: Info #250: KMP_AFFINITY: pid 30093 tid 30106 thread 13 bound to OS proc set 13
+OMP: Info #250: KMP_AFFINITY: pid 30093 tid 30108 thread 15 bound to OS proc set 15
+OMP: Info #250: KMP_AFFINITY: pid 30093 tid 30107 thread 14 bound to OS proc set 14
+Elapsed time: 11.65
+R: 149.659528, G: 148.049722, B: 139.202555
+Parallel version with 16 threads Scattered
+OMP: Info #212: KMP_AFFINITY: decoding x2APIC ids.
+OMP: Info #210: KMP_AFFINITY: Affinity capable, using global cpuid leaf 11 info
+OMP: Info #154: KMP_AFFINITY: Initial OS proc set respected: 0-15
+OMP: Info #156: KMP_AFFINITY: 16 available OS procs
+OMP: Info #158: KMP_AFFINITY: Nonuniform topology
+OMP: Info #179: KMP_AFFINITY: 2 packages x 10 cores/pkg x 1 threads/core (16 total cores)
+OMP: Info #214: KMP_AFFINITY: OS proc to physical thread map:
+OMP: Info #171: KMP_AFFINITY: OS proc 0 maps to package 0 core 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 1 maps to package 0 core 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 2 maps to package 0 core 2 
+OMP: Info #171: KMP_AFFINITY: OS proc 3 maps to package 0 core 3 
+OMP: Info #171: KMP_AFFINITY: OS proc 4 maps to package 0 core 4 
+OMP: Info #171: KMP_AFFINITY: OS proc 5 maps to package 0 core 8 
+OMP: Info #171: KMP_AFFINITY: OS proc 6 maps to package 0 core 9 
+OMP: Info #171: KMP_AFFINITY: OS proc 7 maps to package 0 core 10 
+OMP: Info #171: KMP_AFFINITY: OS proc 8 maps to package 0 core 11 
+OMP: Info #171: KMP_AFFINITY: OS proc 9 maps to package 0 core 12 
+OMP: Info #171: KMP_AFFINITY: OS proc 10 maps to package 1 core 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 11 maps to package 1 core 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 12 maps to package 1 core 2 
+OMP: Info #171: KMP_AFFINITY: OS proc 13 maps to package 1 core 3 
+OMP: Info #171: KMP_AFFINITY: OS proc 14 maps to package 1 core 4 
+OMP: Info #171: KMP_AFFINITY: OS proc 15 maps to package 1 core 8 
+OMP: Info #250: KMP_AFFINITY: pid 30110 tid 30110 thread 0 bound to OS proc set 0
+OMP: Info #250: KMP_AFFINITY: pid 30110 tid 30111 thread 1 bound to OS proc set 10
+OMP: Info #250: KMP_AFFINITY: pid 30110 tid 30113 thread 3 bound to OS proc set 11
+OMP: Info #250: KMP_AFFINITY: pid 30110 tid 30112 thread 2 bound to OS proc set 1
+OMP: Info #250: KMP_AFFINITY: pid 30110 tid 30114 thread 4 bound to OS proc set 2
+OMP: Info #250: KMP_AFFINITY: pid 30110 tid 30115 thread 5 bound to OS proc set 12
+OMP: Info #250: KMP_AFFINITY: pid 30110 tid 30117 thread 7 bound to OS proc set 13
+OMP: Info #250: KMP_AFFINITY: pid 30110 tid 30119 thread 9 bound to OS proc set 14
+OMP: Info #250: KMP_AFFINITY: pid 30110 tid 30118 thread 8 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 30110 tid 30121 thread 11 bound to OS proc set 15
+OMP: Info #250: KMP_AFFINITY: pid 30110 tid 30124 thread 14 bound to OS proc set 8
+OMP: Info #250: KMP_AFFINITY: pid 30110 tid 30123 thread 13 bound to OS proc set 7
+OMP: Info #250: KMP_AFFINITY: pid 30110 tid 30122 thread 12 bound to OS proc set 6
+OMP: Info #250: KMP_AFFINITY: pid 30110 tid 30125 thread 15 bound to OS proc set 9
+OMP: Info #250: KMP_AFFINITY: pid 30110 tid 30120 thread 10 bound to OS proc set 5
+OMP: Info #250: KMP_AFFINITY: pid 30110 tid 30116 thread 6 bound to OS proc set 3
+Elapsed time: 11.67
+R: 149.659528, G: 148.049722, B: 139.202555
